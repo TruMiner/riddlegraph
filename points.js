@@ -24,13 +24,13 @@
     {
       latex: 'x',
       color: "#2d70b3",
-      columnMode: Desmos.ColumnModes.LINES,
+      lines: true,
       values: ['1', '188']
     },
     {
       latex: 'y',
       color: "#2d70b3",
-      columnMode: Desmos.ColumnModes.LINES,
+      lines: true,
       values: ['5.60106382978723', '5.60106382978723']
     }
   ]
@@ -41,13 +41,13 @@
     {
       latex: 'x',
       color: "#388c46",
-      columnMode: Desmos.ColumnModes.LINES,
+      lines: true,
       values: ['1', '188']
     },
     {
       latex: 'y',
       color: "#388c46",
-      columnMode: Desmos.ColumnModes.LINES,
+      lines: true,
       values: ['16', '16']
     }
   ]
@@ -58,13 +58,13 @@
     {
       latex: 'x',
       color: "#c74440",
-      columnMode: Desmos.ColumnModes.LINES,
+      lines: true,
       values: ['1', '188']
     },
     {
       latex: 'y',
       color: "#c74440",
-      columnMode: Desmos.ColumnModes.LINES,
+      lines: true,
       values: ['0', '0']
     }
   ]
@@ -126,14 +126,14 @@ calculator.setExpression({ latex: '(1,-7.5)', color: '#000000', label: '2023', s
     {
       latex: 'x',
       color: "#000000",
-      columnMode: Desmos.ColumnModes.LINES,
+      lines: true,
       lineStyle: Desmos.Styles.DASHED,
       values: ['1', '1']
     },
     {
       latex: 'y',
       color: "#000000",
-      columnMode: Desmos.ColumnModes.LINES,
+      lines: true,
       lineStyle: Desmos.Styles.DASHED,
       values: ['-4', '17']
     }
@@ -146,14 +146,14 @@ calculator.setExpression({ latex: '(1,-7.5)', color: '#000000', label: '2023', s
     {
       latex: 'x',
       color: "#000000",
-      columnMode: Desmos.ColumnModes.LINES,
+      lines: true,
       lineStyle: Desmos.Styles.DASHED,
       values: ['34', '34']
     },
     {
       latex: 'y',
       color: "#000000",
-      columnMode: Desmos.ColumnModes.LINES,
+      lines: true,
       lineStyle: Desmos.Styles.DASHED,
       values: ['-4', '17']
     }
@@ -166,14 +166,14 @@ calculator.setExpression({ latex: '(1,-7.5)', color: '#000000', label: '2023', s
     {
       latex: 'x',
       color: "#000000",
-      columnMode: Desmos.ColumnModes.LINES,
+      lines: true,
       lineStyle: Desmos.Styles.DASHED,
       values: ['37', '37']
     },
     {
       latex: 'y',
       color: "#000000",
-      columnMode: Desmos.ColumnModes.LINES,
+      lines: true,
       lineStyle: Desmos.Styles.DASHED,
       values: ['-4', '17']
     }
