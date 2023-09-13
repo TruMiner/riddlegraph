@@ -25,12 +25,14 @@
       latex: 'x',
       color: "#2d70b3",
       lines: true,
+      pointOpacity: 0,
       values: ['1', '188']
     },
     {
       latex: 'y',
       color: "#2d70b3",
       lines: true,
+      pointOpacity: 0,
       values: ['5.60106382978723', '5.60106382978723']
     }
   ]
@@ -42,12 +44,14 @@
       latex: 'x',
       color: "#388c46",
       lines: true,
+      pointOpacity: 0,
       values: ['1', '188']
     },
     {
       latex: 'y',
       color: "#388c46",
       lines: true,
+      pointOpacity: 0,
       values: ['16', '16']
     }
   ]
@@ -59,12 +63,14 @@
       latex: 'x',
       color: "#c74440",
       lines: true,
+      pointOpacity: 0,
       values: ['1', '188']
     },
     {
       latex: 'y',
       color: "#c74440",
       lines: true,
+      pointOpacity: 0,
       values: ['0', '0']
     }
   ]
@@ -127,6 +133,7 @@ calculator.setExpression({ latex: '(1,-7.5)', color: '#000000', label: '2023', s
       latex: 'x',
       color: "#000000",
       lines: true,
+      pointOpacity: 0,
       lineStyle: Desmos.Styles.DASHED,
       values: ['1', '1']
     },
@@ -134,6 +141,7 @@ calculator.setExpression({ latex: '(1,-7.5)', color: '#000000', label: '2023', s
       latex: 'y',
       color: "#000000",
       lines: true,
+      pointOpacity: 0,
       lineStyle: Desmos.Styles.DASHED,
       values: ['-4', '17']
     }
@@ -147,6 +155,7 @@ calculator.setExpression({ latex: '(1,-7.5)', color: '#000000', label: '2023', s
       latex: 'x',
       color: "#000000",
       lines: true,
+      pointOpacity: 0,
       lineStyle: Desmos.Styles.DASHED,
       values: ['34', '34']
     },
@@ -154,6 +163,7 @@ calculator.setExpression({ latex: '(1,-7.5)', color: '#000000', label: '2023', s
       latex: 'y',
       color: "#000000",
       lines: true,
+      pointOpacity: 0,
       lineStyle: Desmos.Styles.DASHED,
       values: ['-4', '17']
     }
@@ -167,6 +177,7 @@ calculator.setExpression({ latex: '(1,-7.5)', color: '#000000', label: '2023', s
       latex: 'x',
       color: "#000000",
       lines: true,
+      pointOpacity: 0,
       lineStyle: Desmos.Styles.DASHED,
       values: ['37', '37']
     },
@@ -174,6 +185,7 @@ calculator.setExpression({ latex: '(1,-7.5)', color: '#000000', label: '2023', s
       latex: 'y',
       color: "#000000",
       lines: true,
+      pointOpacity: 0,
       lineStyle: Desmos.Styles.DASHED,
       values: ['-4', '17']
     }
