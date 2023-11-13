@@ -78,7 +78,7 @@
   calculator.setExpression({ latex: '(124,5.12340425531915)', color: '#2d70b3', label: 'Average', showLabel: true, hidden: true });
   calculator.setExpression({ latex: '(124,16)', color: '#388c46', label: 'Highest', showLabel: true, hidden: true });
   calculator.setExpression({ latex: '(124,0)', color: '#c74440', label: 'Lowest', showLabel: true, hidden: true });
-  calculator.setExpression({ latex: '(124,-5)', color: '#000000', label: 'Fun Fact / Quote / Riddle # (Date Format: M/D)', showLabel: true, hidden: true });
+  calculator.setExpression({ latex: '(124,-5)', color: '#000000', label: 'Fun Fact / Quote / Riddle / MC Fact # (Date Format: M/D)', showLabel: true, hidden: true });
   calculator.setExpression({ latex: '(-4,8)', color: '#000000', label: '# of mentions', showLabel: true, hidden: true });
   calculator.setExpression({ latex: '(124, 26)', color: '#000000', label: 'Total Number of Mentions: 1,204', showLabel: true, hidden: true });
   calculator.setExpression({ latex: '(124, 24)', color: '#000000', label: 'Mean: 5.12340425531915 | Median: 4 | Mode: 4', showLabel: true, hidden: true });
@@ -137,6 +137,7 @@ calculator.setExpression({ latex: '(1,-7.5)', color: '#000000', label: '2023', s
   calculator.setExpression({ latex: '(34,-5)', color: '#000000', label: 'Quotes', showLabel: true, hidden: true });
   calculator.setExpression({ latex: '(37,-5)', color: '#000000', label: 'Riddles', showLabel: true, hidden: true });
   calculator.setExpression({ latex: '(1,-5)', color: '#000000', label: 'Fun Facts', showLabel: true, hidden: true });
+  calculator.setExpression({ latex: '(248,-5)', color: '#000000', label: 'MC Facts', showLabel: true, hidden: true });
 
  calculator.setExpression({
   type: 'table',
@@ -148,6 +149,28 @@ calculator.setExpression({ latex: '(1,-7.5)', color: '#000000', label: '2023', s
       pointOpacity: 0,
       lineStyle: Desmos.Styles.DASHED,
       values: ['1', '1']
+    },
+    {
+      latex: 'y',
+      color: "#000000",
+      lines: true,
+      pointOpacity: 0,
+      lineStyle: Desmos.Styles.DASHED,
+      values: ['-4', '17']
+    }
+  ]
+});
+
+ calculator.setExpression({
+  type: 'table',
+  columns: [
+    {
+      latex: 'x',
+      color: "#000000",
+      lines: true,
+      pointOpacity: 0,
+      lineStyle: Desmos.Styles.DASHED,
+      values: ['248', '248']
     },
     {
       latex: 'y',
