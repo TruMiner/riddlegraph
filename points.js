@@ -145,6 +145,7 @@
   calculator.setExpression({ latex: '(295,-3)', color: '#000000', label: '12/29', showLabel: true, hidden: true });
   calculator.setExpression({ latex: '(300,-3)', color: '#000000', label: '1/3', showLabel: true, hidden: true });
 calculator.setExpression({ latex: '(1,-7.5)', color: '#000000', label: '2023', showLabel: true, hidden: true });
+calculator.setExpression({ latex: '(298,-7.5)', color: '#000000', label: '2024', showLabel: true, hidden: true });
   calculator.setExpression({ latex: '(34,-5)', color: '#000000', label: 'Quotes', showLabel: true, hidden: true });
   calculator.setExpression({ latex: '(37,-5)', color: '#000000', label: 'Riddles', showLabel: true, hidden: true });
   calculator.setExpression({ latex: '(1,-5)', color: '#000000', label: 'Fun Facts', showLabel: true, hidden: true });
