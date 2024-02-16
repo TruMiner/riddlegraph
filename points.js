@@ -109,8 +109,8 @@ calculator.setMathBounds({
   calculator.setExpression({ latex: '(340,-3)', color: '#000000', label: '2/12', showLabel: true, hidden: true });
 calculator.setExpression({ latex: '(1,-7.5)', color: '#000000', label: '2023', showLabel: true, hidden: true });
 calculator.setExpression({ latex: '(298,-7.5)', color: '#000000', label: '2024', showLabel: true, hidden: true });
-  calculator.setExpression({ latex: '(52,-5)', color: '#000000', label: 'Quotes', showLabel: true, hidden: true });
-  calculator.setExpression({ latex: '(85,-5)', color: '#000000', label: 'Riddles', showLabel: true, hidden: true });
+  calculator.setExpression({ latex: '(34,18)', color: '#000000', label: 'Quotes', showLabel: true, hidden: true });
+  calculator.setExpression({ latex: '(55,-5)', color: '#000000', label: 'Riddles', showLabel: true, hidden: true });
   calculator.setExpression({ latex: '(18,-5)', color: '#000000', label: 'Fun Facts', showLabel: true, hidden: true });
   calculator.setExpression({ latex: '(248,-5)', color: '#000000', label: 'MC Facts', showLabel: true, hidden: true });
 
