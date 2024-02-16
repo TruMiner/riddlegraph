@@ -3,6 +3,12 @@
   var calculator = Desmos.GraphingCalculator(elt, {
     keypad: false, zoomButtons: false, settingsMenu: false, expressions: false
   });
+calculator.setMathBounds({
+    left: -50,
+    right: 394,
+    bottom: -15,
+    top: 31
+  });
   calculator.setExpression({
   type: 'table',
   columns: [
@@ -78,85 +84,34 @@
   calculator.setExpression({ latex: '(172,5.94501718213058)', color: '#2d70b3', label: 'Average', showLabel: true, hidden: true });
   calculator.setExpression({ latex: '(172,16)', color: '#388c46', label: 'Highest', showLabel: true, hidden: true });
   calculator.setExpression({ latex: '(172,0)', color: '#c74440', label: 'Lowest', showLabel: true, hidden: true });
-  calculator.setExpression({ latex: '(172,-5)', color: '#000000', label: 'Fun Fact / Quote / Riddle / MC Fact # (Date Format: M/D)', showLabel: true, hidden: true });
-  calculator.setExpression({ latex: '(-4,8)', color: '#000000', label: '# of mentions', showLabel: true, hidden: true });
+  calculator.setExpression({ latex: '(172,-6)', color: '#000000', label: 'Fun Fact / Quote / Riddle / MC Fact # (Date Format: M/D)', showLabel: true, hidden: true });
+  calculator.setExpression({ latex: '(-25,8)', color: '#000000', label: '# of mentions', showLabel: true, hidden: true });
   calculator.setExpression({ latex: '(172, 26)', color: '#000000', label: 'Total Number of Mentions: 1,730', showLabel: true, hidden: true });
   calculator.setExpression({ latex: '(172, 24)', color: '#000000', label: 'Mean: 5.94501718213058 | Median: 5 | Mode: 4', showLabel: true, hidden: true });
   calculator.setExpression({ latex: '(172, 22)', color: '#000000', label: 'Range: 16 | Min: 0 | Max: 16', showLabel: true, hidden: true });
   calculator.setExpression({ latex: '(172, 20)', color: '#000000', label: 'Most used reaction: :nerd: (12 different times)', showLabel: true, hidden: true });
-  calculator.setExpression({ latex: '(5,-3)', color: '#000000', label: '3/14', showLabel: true, hidden: true });
-  calculator.setExpression({ latex: '(10,-3)', color: '#000000', label: '3/19', showLabel: true, hidden: true });
-  calculator.setExpression({ latex: '(15,-3)', color: '#000000', label: '3/24', showLabel: true, hidden: true });
   calculator.setExpression({ latex: '(20,-3)', color: '#000000', label: '3/29', showLabel: true, hidden: true });
-  calculator.setExpression({ latex: '(25,-3)', color: '#000000', label: '4/3', showLabel: true, hidden: true });
-  calculator.setExpression({ latex: '(30,-3)', color: '#000000', label: '4/8', showLabel: true, hidden: true });
-  calculator.setExpression({ latex: '(35,-3)', color: '#000000', label: '4/13', showLabel: true, hidden: true });
   calculator.setExpression({ latex: '(40,-3)', color: '#000000', label: '4/18', showLabel: true, hidden: true });
-  calculator.setExpression({ latex: '(45,-3)', color: '#000000', label: '4/23', showLabel: true, hidden: true });
-  calculator.setExpression({ latex: '(50,-3)', color: '#000000', label: '4/28', showLabel: true, hidden: true });
-  calculator.setExpression({ latex: '(55,-3)', color: '#000000', label: '5/3', showLabel: true, hidden: true });
   calculator.setExpression({ latex: '(60,-3)', color: '#000000', label: '5/8', showLabel: true, hidden: true });
-  calculator.setExpression({ latex: '(65,-3)', color: '#000000', label: '5/13', showLabel: true, hidden: true });
-  calculator.setExpression({ latex: '(70,-3)', color: '#000000', label: '5/18', showLabel: true, hidden: true });
-  calculator.setExpression({ latex: '(75,-3)', color: '#000000', label: '5/23', showLabel: true, hidden: true });
   calculator.setExpression({ latex: '(80,-3)', color: '#000000', label: '5/28', showLabel: true, hidden: true });
-  calculator.setExpression({ latex: '(85,-3)', color: '#000000', label: '6/2', showLabel: true, hidden: true });
-  calculator.setExpression({ latex: '(90,-3)', color: '#000000', label: '6/7', showLabel: true, hidden: true });
-  calculator.setExpression({ latex: '(95,-3)', color: '#000000', label: '6/12', showLabel: true, hidden: true });
   calculator.setExpression({ latex: '(100,-3)', color: '#000000', label: '6/17', showLabel: true, hidden: true });
-  calculator.setExpression({ latex: '(105,-3)', color: '#000000', label: '6/22', showLabel: true, hidden: true });
-  calculator.setExpression({ latex: '(110,-3)', color: '#000000', label: '6/27', showLabel: true, hidden: true });
-  calculator.setExpression({ latex: '(115,-3)', color: '#000000', label: '7/2', showLabel: true, hidden: true });
   calculator.setExpression({ latex: '(120,-3)', color: '#000000', label: '7/7', showLabel: true, hidden: true });
-  calculator.setExpression({ latex: '(125,-3)', color: '#000000', label: '7/12', showLabel: true, hidden: true });
-  calculator.setExpression({ latex: '(130,-3)', color: '#000000', label: '7/17', showLabel: true, hidden: true });
-  calculator.setExpression({ latex: '(135,-3)', color: '#000000', label: '7/22', showLabel: true, hidden: true });
   calculator.setExpression({ latex: '(140,-3)', color: '#000000', label: '7/27', showLabel: true, hidden: true });
-  calculator.setExpression({ latex: '(145,-3)', color: '#000000', label: '8/1', showLabel: true, hidden: true });
-  calculator.setExpression({ latex: '(150,-3)', color: '#000000', label: '8/6', showLabel: true, hidden: true });
-  calculator.setExpression({ latex: '(155,-3)', color: '#000000', label: '8/11', showLabel: true, hidden: true });
   calculator.setExpression({ latex: '(160,-3)', color: '#000000', label: '8/16', showLabel: true, hidden: true });
-  calculator.setExpression({ latex: '(165,-3)', color: '#000000', label: '8/21', showLabel: true, hidden: true });
-  calculator.setExpression({ latex: '(170,-3)', color: '#000000', label: '8/26', showLabel: true, hidden: true });
-  calculator.setExpression({ latex: '(175,-3)', color: '#000000', label: '8/31', showLabel: true, hidden: true });
   calculator.setExpression({ latex: '(180,-3)', color: '#000000', label: '9/5', showLabel: true, hidden: true });
-  calculator.setExpression({ latex: '(185,-3)', color: '#000000', label: '9/10', showLabel: true, hidden: true });
-  calculator.setExpression({ latex: '(190,-3)', color: '#000000', label: '9/15', showLabel: true, hidden: true });
-  calculator.setExpression({ latex: '(195,-3)', color: '#000000', label: '9/20', showLabel: true, hidden: true });
   calculator.setExpression({ latex: '(200,-3)', color: '#000000', label: '9/25', showLabel: true, hidden: true });
-  calculator.setExpression({ latex: '(205,-3)', color: '#000000', label: '9/30', showLabel: true, hidden: true });
-  calculator.setExpression({ latex: '(210,-3)', color: '#000000', label: '10/5', showLabel: true, hidden: true });
-  calculator.setExpression({ latex: '(215,-3)', color: '#000000', label: '10/10', showLabel: true, hidden: true });
   calculator.setExpression({ latex: '(220,-3)', color: '#000000', label: '10/15', showLabel: true, hidden: true });
-  calculator.setExpression({ latex: '(225,-3)', color: '#000000', label: '10/20', showLabel: true, hidden: true });
-  calculator.setExpression({ latex: '(230,-3)', color: '#000000', label: '10/25', showLabel: true, hidden: true });
-  calculator.setExpression({ latex: '(235,-3)', color: '#000000', label: '10/30', showLabel: true, hidden: true });
   calculator.setExpression({ latex: '(240,-3)', color: '#000000', label: '11/4', showLabel: true, hidden: true });
-  calculator.setExpression({ latex: '(245,-3)', color: '#000000', label: '11/9', showLabel: true, hidden: true });
-  calculator.setExpression({ latex: '(250,-3)', color: '#000000', label: '11/14', showLabel: true, hidden: true });
-  calculator.setExpression({ latex: '(255,-3)', color: '#000000', label: '11/19', showLabel: true, hidden: true });
   calculator.setExpression({ latex: '(260,-3)', color: '#000000', label: '11/24', showLabel: true, hidden: true });
-  calculator.setExpression({ latex: '(265,-3)', color: '#000000', label: '11/29', showLabel: true, hidden: true });
-  calculator.setExpression({ latex: '(270,-3)', color: '#000000', label: '12/4', showLabel: true, hidden: true });
-  calculator.setExpression({ latex: '(275,-3)', color: '#000000', label: '12/9', showLabel: true, hidden: true });
   calculator.setExpression({ latex: '(280,-3)', color: '#000000', label: '12/14', showLabel: true, hidden: true });
-  calculator.setExpression({ latex: '(285,-3)', color: '#000000', label: '12/19', showLabel: true, hidden: true });
-  calculator.setExpression({ latex: '(290,-3)', color: '#000000', label: '12/24', showLabel: true, hidden: true });
-  calculator.setExpression({ latex: '(295,-3)', color: '#000000', label: '12/29', showLabel: true, hidden: true });
   calculator.setExpression({ latex: '(300,-3)', color: '#000000', label: '1/3', showLabel: true, hidden: true });
-  calculator.setExpression({ latex: '(305,-3)', color: '#000000', label: '1/8', showLabel: true, hidden: true });
-  calculator.setExpression({ latex: '(310,-3)', color: '#000000', label: '1/13', showLabel: true, hidden: true });
-  calculator.setExpression({ latex: '(315,-3)', color: '#000000', label: '1/18', showLabel: true, hidden: true });
   calculator.setExpression({ latex: '(320,-3)', color: '#000000', label: '1/23', showLabel: true, hidden: true });
-  calculator.setExpression({ latex: '(325,-3)', color: '#000000', label: '1/28', showLabel: true, hidden: true });
-  calculator.setExpression({ latex: '(330,-3)', color: '#000000', label: '2/2', showLabel: true, hidden: true });
-  calculator.setExpression({ latex: '(335,-3)', color: '#000000', label: '2/7', showLabel: true, hidden: true });
   calculator.setExpression({ latex: '(340,-3)', color: '#000000', label: '2/12', showLabel: true, hidden: true });
 calculator.setExpression({ latex: '(1,-7.5)', color: '#000000', label: '2023', showLabel: true, hidden: true });
 calculator.setExpression({ latex: '(298,-7.5)', color: '#000000', label: '2024', showLabel: true, hidden: true });
-  calculator.setExpression({ latex: '(34,-5)', color: '#000000', label: 'Quotes', showLabel: true, hidden: true });
-  calculator.setExpression({ latex: '(37,-5)', color: '#000000', label: 'Riddles', showLabel: true, hidden: true });
-  calculator.setExpression({ latex: '(1,-5)', color: '#000000', label: 'Fun Facts', showLabel: true, hidden: true });
+  calculator.setExpression({ latex: '(52,-5)', color: '#000000', label: 'Quotes', showLabel: true, hidden: true });
+  calculator.setExpression({ latex: '(85,-5)', color: '#000000', label: 'Riddles', showLabel: true, hidden: true });
+  calculator.setExpression({ latex: '(18,-5)', color: '#000000', label: 'Fun Facts', showLabel: true, hidden: true });
   calculator.setExpression({ latex: '(248,-5)', color: '#000000', label: 'MC Facts', showLabel: true, hidden: true });
 
  calculator.setExpression({
