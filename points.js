@@ -107,7 +107,7 @@ calculator.setMathBounds({
   calculator.setExpression({ latex: '(300,-3)', color: '#000000', label: '1/3', showLabel: true, hidden: true });
   calculator.setExpression({ latex: '(320,-3)', color: '#000000', label: '1/23', showLabel: true, hidden: true });
   calculator.setExpression({ latex: '(340,-3)', color: '#000000', label: '2/12', showLabel: true, hidden: true });
-  calculator.setExpression({ latex: '(360,-3)', color: '#000000', label: '3/4', showLabel: true, hidden: true });
+  calculator.setExpression({ latex: '(360,-3)', color: '#000000', label: '3/3', showLabel: true, hidden: true });
 calculator.setExpression({ latex: '(1,-7.5)', color: '#000000', label: '2023', showLabel: true, hidden: true });
 calculator.setExpression({ latex: '(298,-7.5)', color: '#000000', label: '2024', showLabel: true, hidden: true });
   calculator.setExpression({ latex: '(34,18)', color: '#000000', label: 'Quotes', showLabel: true, hidden: true });
