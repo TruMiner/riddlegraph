@@ -81,7 +81,26 @@ calculator.setMathBounds({
     }
   ]
 });
-  calculator.setExpression({ latex: '(209,6.73463687150838)', color: '#2d70b3', label: 'Average', showLabel: true, hidden: true });
+calculator.setExpression({
+  type: 'table',
+  columns: [
+    {
+      latex: 'x',
+      color: "#6042a6",
+      lines: true,
+      pointOpacity: 0,
+      values: ['1','20' ,'40' ,'60' ,'80' ,'100' ,'120' ,'140' ,'160' ,'180' ,'200' ,'220' ,'240' ,'260' ,'280' ,'300' ,'320' ,'340' ,'360' ,'380' ,'400' ,'418']
+    },
+    {
+      latex: 'y',
+      color: "#6042a6",
+      lines: true,
+      pointOpacity: 0,
+      values: ['8','8' ,'10.3' ,'6.25' ,'5.55' ,'4.4' ,'4.3' ,'4.65' ,'4.35' ,'3.5' ,'3.15' ,'3.75' ,'2.75' ,'5.55' ,'9.45' ,'9.6' ,'9.8' ,'9.35' ,'11.3' ,'9.5' ,'9.25' ,'10.8888888888889']
+    }
+  ]
+});
+ calculator.setExpression({ latex: '(209,6.73463687150838)', color: '#2d70b3', label: 'Average', showLabel: true, hidden: true });
   calculator.setExpression({ latex: '(209,16)', color: '#388c46', label: 'Highest', showLabel: true, hidden: true });
   calculator.setExpression({ latex: '(209,0)', color: '#c74440', label: 'Lowest', showLabel: true, hidden: true });
   calculator.setExpression({ latex: '(209,-6)', color: '#000000', label: 'Fun Fact / Quote / Riddle / MC Fact # (Date Format: M/D)', showLabel: true, hidden: true });
