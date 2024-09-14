@@ -105,10 +105,6 @@ calculator.setExpression({
   calculator.setExpression({ latex: '(277,0)', color: '#c74440', label: 'Lowest', showLabel: true, hidden: true });
   calculator.setExpression({ latex: '(277,-6)', color: '#000000', label: 'Fun Fact / Quote / Riddle / MC Fact # (Date Format: M/D)', showLabel: true, hidden: true });
   calculator.setExpression({ latex: '(-25,9)', color: '#000000', label: '# of mentions', showLabel: true, hidden: true });
-  calculator.setExpression({ latex: '(277, 26)', color: '#000000', label: 'Total Number of Mentions: 3,370', showLabel: true, hidden: true });
-  calculator.setExpression({ latex: '(277, 24)', color: '#000000', label: 'Mean: 7.15498938428875 | Median: 7 | Mode: 9', showLabel: true, hidden: true });
-  calculator.setExpression({ latex: '(277, 22)', color: '#000000', label: 'Range: 18 | Min: 0 | Max: 18', showLabel: true, hidden: true });
-  calculator.setExpression({ latex: '(277, 20)', color: '#000000', label: 'Most used reaction: :nerd: (13 different times)', showLabel: true, hidden: true });
   calculator.setExpression({ latex: '(20,-3)', color: '#000000', label: '3/29', showLabel: true, hidden: true });
   calculator.setExpression({ latex: '(40,-3)', color: '#000000', label: '4/18', showLabel: true, hidden: true });
   calculator.setExpression({ latex: '(60,-3)', color: '#000000', label: '5/8', showLabel: true, hidden: true });
